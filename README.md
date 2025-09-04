@@ -6,7 +6,7 @@ that are written in plain HTML, CSS, and JavaScript.
 
 ## Getting Started
 
-To get started, clone this repository and run the following commands:
+To get started, clone this repository and run the following commands, ensuring you have the latest version of Node installed:
 
 ```bash
 npm install
