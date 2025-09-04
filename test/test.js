@@ -47,4 +47,25 @@ QUnit.module('main.js tests', function() {
         assert.equal(result, expected, 'add(2, -3) should return -1');
     });
 
+        QUnit.test('add should return the sum of a positive and a negative number', function(assert) {
+        //Arrange
+        const num1 = 2;
+        const num2 = -3;
+        const expected = -1;
+        //Act
+        const result = add(num1, num2);
+        //Assert
+        assert.equal(result, expected, 'add(2, -3) should return -1');
+    });
+
+    QUnit.test('add should return the sum of a positive and a negative decimal number', function(assert) {
+        //Arrange
+        const num1 = 2.5;
+        const num2 = -3;
+        const expected = -0.5;
+        //Act
+        const result = add(num1, num2);
+        //Assert
+        assert.equal(result, expected, 'add(2.5, -3) should return -0.5');
+    });
 });
