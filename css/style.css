@@ -27,3 +27,51 @@ tbody tr:nth-child(even) {
 tbody tr:hover {
   background-color: #e9e9e9;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  text-shadow: 2px 2px #ccc;
+}
+
+.info-list {
+  list-style-type: square;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.info-list li {
+  margin: 8px 0;
+}
+
+.avatar {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 3px solid #1f0aff;
+  margin: 15px 0;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #1506b6;
+}
